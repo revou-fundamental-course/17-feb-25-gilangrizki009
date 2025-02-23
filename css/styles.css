@@ -77,9 +77,46 @@ main > header {
     height: 400px;
     align-content: center;
     text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+}
+
+.our-package-content-first > aside {
+    border: 1px solid;
+    height: 400px;
+    flex: 1;
+    align-content: center;
+    text-align: center;
+    
+}
+
+.our-package-content-first > aside > header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#menu-japan {
+    height: 50px;
+    width: 50px;
+    background-image: url(https://i.pinimg.com/474x/8a/ce/92/8ace92b8ecb62d08ae1d6677603fb5de.jpg);
+    background-size: cover;
+    border-radius: 50%;
 }
 
 .our-package-content-second {
+    border: 1px solid;
+    height: 400px;
+    align-content: center;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.our-package-content-third {
     border: 1px solid;
     height: 400px;
     align-content: center;
@@ -114,7 +151,7 @@ main > header {
 .instagram-logo {
     height: 50px;
     width: 50px;
-    background-image: url(https://wallpapers.com/images/featured/instagram-logo-vector-png-ir8f58dvmxlfkgac.jpg);
+    background-image: url(https://www.pngall.com/wp-content/uploads/15/Black-Instagram-Logo-PNG-HD-Image.png);
     background-size: cover;
     border-radius: 50%;
 }
