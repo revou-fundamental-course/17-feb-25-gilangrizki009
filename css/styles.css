@@ -74,22 +74,21 @@ main > header {
 
 .our-package-content-first {
     border: 1px solid;
-    height: 400px;
+    height: 600px;
     align-content: center;
     text-align: center;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    gap: 10px;
+    gap: 20px;
 }
 
 .our-package-content-first > aside {
     border: 1px solid;
-    height: 400px;
+    height: 550px;
     flex: 1;
     align-content: center;
     text-align: center;
-    
 }
 
 .our-package-content-first > aside > header {
@@ -98,9 +97,9 @@ main > header {
     align-items: center;
 }
 
-#menu-japan {
-    height: 50px;
-    width: 50px;
+#gambar-terbang {
+    height: 25px;
+    width: 25px;
     background-image: url(https://i.pinimg.com/474x/8a/ce/92/8ace92b8ecb62d08ae1d6677603fb5de.jpg);
     background-size: cover;
     border-radius: 50%;
@@ -108,11 +107,26 @@ main > header {
 
 .our-package-content-second {
     border: 1px solid;
-    height: 400px;
+    height: 600px;
     align-content: center;
     text-align: center;
     display: flex;
     justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+
+.our-package-content-second > aside {
+    border: 1px solid;
+    height: 550px;
+    flex: 1;
+    align-content: center;
+    text-align: center;
+}
+
+.our-package-content-second > aside > header {
+    display: flex;
+    justify-content: center;
     align-items: center;
 }
 
