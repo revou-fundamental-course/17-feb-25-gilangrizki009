@@ -73,7 +73,7 @@ main > header {
 }
 
 .our-package-content-first {
-    border: 1px solid;
+    
     height: 600px;
     align-content: center;
     text-align: center;
@@ -84,11 +84,15 @@ main > header {
 }
 
 .our-package-content-first > aside {
-    border: 1px solid;
+    
     height: 550px;
     flex: 1;
     align-content: center;
-    text-align: center;
+    text-align: justify;
+    border-radius: 5%;
+    background-color: #a9a9a94d;
+    padding: 20px;
+    
 }
 
 .our-package-content-first > aside > header {
@@ -106,7 +110,7 @@ main > header {
 }
 
 .our-package-content-second {
-    border: 1px solid;
+   
     height: 600px;
     align-content: center;
     text-align: center;
@@ -117,11 +121,15 @@ main > header {
 }
 
 .our-package-content-second > aside {
-    border: 1px solid;
+    
     height: 550px;
     flex: 1;
     align-content: center;
-    text-align: center;
+    text-align: justify;
+    border-radius: 5%;
+    background-color: #a9a9a94d;
+    padding: 20px;
+    
 }
 
 .our-package-content-second > aside > header {
