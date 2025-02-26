@@ -4,12 +4,14 @@ body {
     background-color: lavender;
 }
 
+/* header & navigation */
 .main-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
+/* logo company */
 .logo-company {
     height: 50px;
     width: 90px;
@@ -18,6 +20,7 @@ body {
     border-radius: 50%;
 }
 
+/* navigasi menu */
 nav {
     display: flex;
 }
@@ -48,6 +51,7 @@ nav > a {
     border-bottom-left-radius: 0px;
 }
 
+/* main content */
 main > header {
     text-align: center;
 }
@@ -58,6 +62,7 @@ main > header {
     
 }
 
+/* banner autoslide */
 .main-container-banner {
     border: 1px solid;
     height: 800px;
@@ -72,6 +77,30 @@ main > header {
     
 }
 
+.main-container-banner > main {
+    border: 1px solid;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* gambar profile */
+.main-container-banner > main > div {
+    height: 50px;
+    width: 50px;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/017/226/559/large_2x/atom-logo-design-free-free-vector.jpg);
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.main-container-banner > footer {
+    border: 1px solid;
+    height: 200px;
+}
+
+
+/* bagian form pengisian contact us */
 .main-container-form {
     
     height: 600px;
@@ -93,6 +122,7 @@ main > header {
     text-align: justify;
 }
 
+/* our package section */
 #our-package-section>header {
     height: 150px;
     align-content: center;
@@ -100,6 +130,7 @@ main > header {
     background-color: rgb(130, 182, 182);
 }
 
+/* package bagian pertama */
 .our-package-content-first {
     
     height: 600px;
@@ -129,6 +160,7 @@ main > header {
     align-items: center;
 }
 
+/* logo pesawat terbang */
 #gambar-terbang {
     height: 25px;
     width: 25px;
@@ -137,6 +169,7 @@ main > header {
     border-radius: 50%;
 }
 
+/* package bagian kedua */
 .our-package-content-second {
    
     height: 600px;
@@ -166,6 +199,7 @@ main > header {
     align-items: center;
 }
 
+/* closing argument */
 .our-package-content-third {
     border: 1px solid;
     height: 400px;
@@ -174,15 +208,16 @@ main > header {
 }
 
 #call-us-section>header {
-    height: 150px;
+    height: 100px;
     align-content: center;
     text-align: center;
     background-color: rgb(148, 218, 194);
 }
 
+/* call us section */
 .call-us-content {
-    border: 1px solid;
-    height: 150px;
+    
+    height: 100px;
     align-content: center;
     text-align: center;
     display: flex;
@@ -222,6 +257,7 @@ main > header {
     border-radius: 50%;
 }
 
+/* bagian footer */
 footer {
     text-align: center;
 }
