@@ -35,14 +35,101 @@
 
         </header>
         <section class="main-content">
+            
             <!-- banner autoslide -->
-            <aside class="main-container">
-                <p>Banner Autoslide</p>
+            <aside class="main-container-banner">
+
+                <header id="bagian-banner">
+                     
+                    <img 
+                    class="gambar-banner"
+                    src="assets\gambar-china.jpg"
+                    style="height: 450px; width: 725px;
+                    border-radius: 3%;"
+                    />
+
+                    <img
+                    class="gambar-banner"
+                    src="assets\gambar-jepang.jpg"
+                    style="height: 450px; width: 725px;
+                    border-radius: 3%;"
+                    />
+
+                    <img
+                    class="gambar-banner"
+                    src="assets\gambar-korea.jpg"
+                    style="height: 450px; width: 725px;
+                    border-radius: 3%;"
+                    />
+
+                    <img
+                    class="gambar-banner"
+                    src="assets\gambar-malaysia.jpg"
+                    style="height: 450px; width: 725px;
+                    border-radius: 3%;"
+                    />
+
+                    <img
+                    class="gambar-banner"
+                    src="assets\gambar-thailand.jpg"
+                    style="height: 450px; width: 725px;
+                    border-radius: 3%;"
+                    />
+
+                    <img
+                    class="gambar-banner"
+                    src="assets\gambar-singapura.jpg"
+                    style="height: 450px; width: 725px;
+                    border-radius: 3%;"
+                    />
+
+                    <!-- <button onclick="plusDivs(-1)">Previos</button>
+                    <button onclick="plusDivs(1)">Next</button>
+                 -->
+                </header>
+                <script src="js\script.js"></script>
             </aside>
 
             <!-- Form contact us -->
-            <aside class="main-container">
-                <p>Form contact us</p>
+            <aside class="main-container-form">
+                <div>
+                    <h1>Contact Us</h1>
+                    <p>
+                        Tim kami akan menghubungi anda dalam waktu 1 x 24 Jam
+                    </p>
+                    
+                    <form id="formulir" name="message-form" onsubmit="return validateForm()">
+                        Nama : <br>
+                        <input placeholder="Nama lengkap" type="text" name="full-name" 
+                        style="height: 35px; width: 410px;" required/>
+                        <br><br>
+
+                        Email : <br>
+                        <input placeholder="Email" type="text" name="email" 
+                        style="height: 35px; width: 410px;" required/>
+                        <br><br>
+
+                        No.WhatsApp :<br>
+                        <input placeholder="Nomor anda" type="text" name="nomor" 
+                        style="height: 35px; width: 410px;" required/>
+                        <br><br>
+
+                        Tujuan :<br>
+                        <select style="height: 35px; width: 410px;">
+                            <option selected>Negara</option>
+                            <option>Japan</option>
+                            <option>Singapore</option>
+                            <option>Thailand</option>
+                            <option>China</option>
+                            <option>Korea</option>
+                            <option>Malaysia</option>
+                        </select>
+                        <br><br>
+
+                        <input type="submit" value="Submit" style="width: 100%; height: 40px; background-color: rgb(40, 59, 124);"/>
+                    </form>
+                    <script src="js\script.js"></script>
+                </div>
             </aside>
          </section>
 

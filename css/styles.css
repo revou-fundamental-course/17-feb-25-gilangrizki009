@@ -54,15 +54,43 @@ main > header {
 
 .main-content {
     display: flex;
-    gap: 32px;
+    width: 100%;
+    
 }
 
-.main-container {
+.main-container-banner {
     border: 1px solid;
-    height: 500px;
-    flex: 1;
-    align-content: center;
+    height: 800px;
+    width: 100%;
     text-align: center;
+    padding: 20px;
+}
+
+#bagian-banner {
+    
+    height: 450px;
+    
+}
+
+.main-container-form {
+    
+    height: 600px;
+    width: 60%;
+    text-align: center;
+    padding: 50px;
+}
+
+.main-container-form > div {
+    border: 1px solid;
+    height: 550px;
+    width: 425px; 
+    padding: 20px;
+    border-radius: 2%;  
+    background-color: #edebd3;
+}
+
+#formulir {
+    text-align: justify;
 }
 
 #our-package-section>header {
