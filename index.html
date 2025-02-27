@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Atom's Travel</title>
 
     <link rel="stylesheet" href="css\styles.css">
 </head>
@@ -89,11 +89,73 @@
                 </header>
                 <script src="js\script.js"></script>
 
+                <!-- Testimoni -->
                 <main>
                     <div></div>
-                    <p>christy chandra</p>
+                    <article>
+                            <p>
+                                <b>Christy Chandra</b><br>
+                                <i>Ibu Rumah Tangga, 29 </i>
+                            </p>
+                    </article>
+                    <P>
+                         :<i>"Liburan jadi lebih menyenangkan bersama travel kuring"</i>
+                    </P>
                 </main>
-                <footer>asd</footer>
+
+                <main>
+                    <div></div>
+                    <article>
+                            <p>
+                                <b>David Jones</b><br>
+                                <i>Pegawai Swasta, 26 </i>
+                            </p>
+                    </article>
+                    <P>
+                         :<i>"Saya pergi ke jepang dengan pengalaman yang memuaskan!"</i>
+                    </P>
+                </main>
+
+                <!-- bagian benefit -->
+
+                <footer>
+                    <div id="headline-benefit">
+                        <h2>Mengapa Atom's Travels?</h2>
+                        <p><i>Berpengalaman dan Terpercaya Sejak 2010</i></p>
+                    </div>
+                    
+                    <!-- bagian kotak benefit -->
+                    <div id="destinasi-benefit-1">
+                        <article>
+                            <img src="assets\beragam-destinasi-wisata-removebg-preview.png">
+                            <h3>Beragam Destinasi wisata</h3>
+                            <p><i>Tersedia beragam destinasi wisata dari berbagai macam negara pilihan terbaik</i></p>
+                        </article>
+
+                        <article>
+                            <img src="assets\logo-dolar.png">
+                            <h3>Harga Tour Kompetitif</h3>
+                            <p><i>Kualitas layanan tour prioritas utama kami, bukan hanya sekedar harga murah</i></p>
+                        </article>
+                    </div>
+                    
+                    <br>
+
+                    <div id="destinasi-benefit-1">
+                        <article>
+                            <img src="assets\jam-removebg-preview.png">
+                            <h3>Jam Pelayanan Pelanggan</h3>
+                            <p><i>Layanan pelanggan setiap Senin - Jumat 08.00 - 17.00 WIB & Sabtu 08.00 - 15.00 WIB</i></p>
+                        </article>
+
+                        <article>
+                            <img src="assets\logo-profile.png">
+                            <h3>Group Tour & Gathering</h3>
+                            <p><i>Menerima Kustom Tour & Gathering untuk Perusahaan, Organisasi dan Keluarga Besar</i></p>
+                        </article>
+                    </div>
+
+                </footer>
             </aside>
 
             <!-- Form contact us -->
@@ -107,20 +169,20 @@
                     <form id="formulir" name="message-form" onsubmit="return validateForm()">
                         Nama : <br>
                         <input placeholder="Nama lengkap" type="text" name="full-name" 
-                        style="height: 35px; width: 410px;" required/>
+                        style="height: 35px; width: 410px;" id="formulir-isian"  />
                         <br><br>
 
                         Email : <br>
                         <input placeholder="Email" type="text" name="email" 
-                        style="height: 35px; width: 410px;" required/>
+                        style="height: 35px; width: 410px;" id="formulir-isian" />
                         <br><br>
 
                         No.WhatsApp :<br>
                         <input placeholder="Nomor anda" type="text" name="nomor" 
-                        style="height: 35px; width: 410px;" required/>
+                        style="height: 35px; width: 410px;" id="formulir-isian" />
                         <br><br>
 
-                        Tujuan :<br>
+                        Pilih Destinasi :<br>
                         <select style="height: 35px; width: 410px;">
                             <option selected>Negara</option>
                             <option>Japan</option>
@@ -132,7 +194,9 @@
                         </select>
                         <br><br>
 
-                        <input type="submit" value="Submit" style="width: 100%; height: 40px; background-color: rgb(40, 59, 124);"/>
+                        <input type="submit" value="Submit" 
+                        style="width: 100%; height: 40px; 
+                        background-color: rgb(76, 99, 173);"/>
                     </form>
                     <script src="js\script.js"></script>
                 </div>
@@ -144,6 +208,7 @@
             <header>
                 <h2>Our Packages</h2>
             </header>
+            <br>
 
             <!-- isi konten our package -->
              <article class="our-package-content-first">
@@ -206,7 +271,7 @@
 
              </article>
 
-                <hr>
+                <br>
 
              <!-- isi konten kedua our package -->
              <article class="our-package-content-second">
@@ -268,14 +333,26 @@
 
              </article>
 
+                <br>
                 <hr>
 
                 <!-- isi konten merupakan closing argumen -->
                 <article class="our-package-content-third">
-                    <h1>Closing Argument Headline</h1>
-                    <p>isi konten pada our packag</p>
+                    <header> 
+                            <h1>Temukan Keseruan Berlibur Dengan Atom's Travel</h1>
+                                <p>
+                                    "Terima kasih telah mempercayakan perjalanan Anda kepada kami. Kami di Atoms Travel 
+                                    berkomitmen untuk memberikan pengalaman liburan yang tak terlupakan, penuh petualangan, 
+                                    dan budaya yang memukau di berbagai destinasi indah di Asia. Dari pantai eksotis hingga kota-kota yang 
+                                    kaya akan sejarah, kami siap membantu Anda menjelajahi keajaiban Asia dengan kenyamanan dan keamanan. 
+                                    Mari mulai perjalanan Anda bersama kami, dan rasakan keajaiban Asia yang sesungguhnya. Sampai jumpa di 
+                                    petualangan berikutnya!"
+                                </p>
+                     </header>
                  </article>
          </section>
+
+            <br>
 
          <!-- call us section-->
          <section id="call-us-section">
@@ -306,7 +383,7 @@
 <hr>
     <!-- Bagian footer -->
     <footer>
-        <p>made by gilang @2025</p>
+        <p>Made by gilang @2025</p>
     </footer>
 </body>
 </html>

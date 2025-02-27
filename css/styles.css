@@ -14,8 +14,8 @@ body {
 /* logo company */
 .logo-company {
     height: 50px;
-    width: 90px;
-    background-image: url(https://static.vecteezy.com/system/resources/previews/017/226/559/large_2x/atom-logo-design-free-free-vector.jpg);
+    width: 50px;
+    background-image: url(https://design.deviloarts.com/wp-content/uploads/Atom-Smasher-Vector-scaled.jpg);
     background-size: cover;
     border-radius: 50%;
 }
@@ -23,6 +23,7 @@ body {
 /* navigasi menu */
 nav {
     display: flex;
+    gap: 5px;
 }
 
 nav > a {
@@ -64,8 +65,8 @@ main > header {
 
 /* banner autoslide */
 .main-container-banner {
-    border: 1px solid;
-    height: 800px;
+    
+    height: 1150px;
     width: 100%;
     text-align: center;
     padding: 20px;
@@ -78,26 +79,70 @@ main > header {
 }
 
 .main-container-banner > main {
-    border: 1px solid;
-    height: 150px;
+    
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
 }
 
 /* gambar profile */
 .main-container-banner > main > div {
     height: 50px;
     width: 50px;
-    background-image: url(https://static.vecteezy.com/system/resources/previews/017/226/559/large_2x/atom-logo-design-free-free-vector.jpg);
+    background-image: url(https://cdn-icons-png.flaticon.com/512/5577/5577995.png);
     background-size: cover;
     border-radius: 50%;
 }
 
-.main-container-banner > footer {
-    border: 1px solid;
-    height: 200px;
+/* testimoni */
+.main-container-banner > main > p {
+    font-size: 20px;
 }
+
+/* bagian footer benefit */
+.main-container-banner > footer {
+    
+    height: 525px;
+    border-radius: 5%;
+}
+
+.main-container-banner > footer > div {
+    
+    height: 100px;
+   
+}
+
+/* headline footer */
+#headline-benefit > h2 {
+    font-size: 25px;
+}
+
+#headline-benefit > p {
+    font-size: 18px;
+}
+
+/* benefit bagian atas */
+#destinasi-benefit-1 {
+    display: flex;
+    height: 200px;
+    gap: 20px;
+}
+
+#destinasi-benefit-1 > article {
+    
+    width: 100%;
+    padding: 10px;
+    border-radius: 4%;
+    background-color: rgb(203, 210, 218);
+}
+
+#destinasi-benefit-1 > article > img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    
+}
+
 
 
 /* bagian form pengisian contact us */
@@ -107,6 +152,11 @@ main > header {
     width: 60%;
     text-align: center;
     padding: 50px;
+}
+
+.main-container-form > h1 {
+    
+    font-size: 23px;
 }
 
 .main-container-form > div {
@@ -127,7 +177,7 @@ main > header {
     height: 150px;
     align-content: center;
     text-align: center;
-    background-color: rgb(130, 182, 182);
+    background-color: rgb(173, 224, 224);
 }
 
 /* package bagian pertama */
@@ -201,17 +251,30 @@ main > header {
 
 /* closing argument */
 .our-package-content-third {
-    border: 1px solid;
-    height: 400px;
+    
+    height: 200px;
     align-content: center;
     text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
+.our-package-content-third > header > h1 {
+
+   font-size: 30px;
+}
+
+.our-package-content-third > header > p {
+
+    font-size: 19px;
+ }
+
+/* call us  */
 #call-us-section>header {
     height: 100px;
     align-content: center;
     text-align: center;
-    background-color: rgb(148, 218, 194);
+    background-color: rgb(173, 224, 224);
 }
 
 /* call us section */
@@ -260,4 +323,25 @@ main > header {
 /* bagian footer */
 footer {
     text-align: center;
+}
+
+
+/* Responsive Design  */
+@media only screen and (max-width: 480px) {
+    .main-content {
+        flex-direction: column;
+    }
+
+    .our-package-content-first {
+        flex-direction: column;
+    }
+
+    .our-package-content-second {
+        flex-direction: column;
+    }
+
+    .our-package-content-third {
+        flex-direction: column;
+    }
+
 }

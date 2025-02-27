@@ -1,5 +1,6 @@
 // ini javascript eksternal
 
+// ini untuk banner autoslide
 //for index identifier
 let indexBanner = 0;
 
@@ -28,23 +29,22 @@ function showBanner() {
     banner[indexBanner].style.display = 'block';
 }
 
+// untuk gambar berubah per milidetik
 setInterval(nextBanner, 3000);
 
+
 // bagian untuk form validation
-function validation () {
-    const name = document.forms["message-form"]["full-name"].value;
-    const email = document.forms["message-form"]["email"].value;
-    const nomor = document.forms["message-form"]["nomor"].value;
+function validateForm() {
+    let nameInput = document.getElementById ('formulir-isian');
 
-    if (name == "" || email == "" || nomor == "") {
-        alert("Tidak boleh ada yang kosong");
-        return false;
+//pilihan masalah yang terjadi jika form kosong
+    if    (nameInput.value == '') {
+                alert('form tidak boleh kosong')
+    } else {
+        alert('welcome ' + nameInput.value);
     }
-
-    setSenderUI(name, email, nomor);
-    
-    return false;
 }
+
 
 // // bagian banner slide
 // var slideIndex = 1;
@@ -69,4 +69,4 @@ function validation () {
 
 // setInterval(() => {
 //     plusDivs(1);
-// }, 1000)
+// }, 1000) 
