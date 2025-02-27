@@ -344,4 +344,7 @@ footer {
         flex-direction: column;
     }
 
+    .main-container-banner > main {
+        flex-direction: column;
+    }
 }
